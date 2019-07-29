@@ -1,0 +1,70 @@
+/* --------------------------------------------------------
+Style for Final Project
+
+version: 1.0
+last modified: 24.07.2019
+author: Malek Gorchene
+email: malek.gorchene@gmail.com
+----------------------------------------------------------*/
+
+/* General Style */
+.mb-20{
+    margin-bottom: 20px;
+}
+.svg-white{
+    fill: white;
+}
+
+/* Header Style */
+
+
+/* Main Style */
+main{
+    background-color:#09d ;
+    padding: 50px 0;
+}
+@media screen and (min-width: 768px ){
+    main section.container>div.row.mb-20>div{
+        height: 340px;
+        max-height: 340px;
+    }
+}
+main section.container>div.row>div{
+    padding: 20px;
+}
+#pending,#formulaire,#notes{
+
+    padding: 20px;
+    background-color : #0f0f0f;
+    color : white;
+    border-radius : 6px;
+}
+#items{
+    max-height: 180px;
+    overflow-y: scroll;
+}
+#items>div.toast{
+    width: 100%;
+    max-width: initial;
+    cursor: pointer;
+}
+
+/* Index Page Style */
+#index{
+    padding: 50px;
+    background-color : #0f0f0f;
+    color : white; 
+}
+#index div.row > div{
+    padding: 20px;
+}
+#index div.row > div > div{
+    border-radius : 8px;
+    padding: 20px;
+    background-color : white;
+    color : black; 
+    height: 100%;
+}
+
+
+/* Footer Style */
